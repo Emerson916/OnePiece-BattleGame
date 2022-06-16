@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="sortcut icon" href="assets/img/logoNavegador.png" type="icon/png">
+    <title>One Piece - Battle Game</title>
+    <link rel="stylesheet" href="./styles/variaveis.css" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/fontes.css" />    
+    <link rel="stylesheet" href="./styles/animacoes.css" />
+    <link rel="stylesheet" href="./styles/estilos.css">       
+    <link rel="stylesheet" href="./styles/responsivo.css">
+</head>
+<body>
+    <main>
+        <header class="cabecalho">
+            <div class="titulo">
+                <img src="assets/img/logoName.png" width="250" alt="Imagem com character select">
+            </div>            
+        </header>
+        <div class="selecao-de-personagens">
+            <div class="personagem-grande personagem-jogador-1">
+                <img src="./assets/img/luffy.png" alt="Personagem selecionado jogador 1" id="personagem-jogador-1">
+                <div class="nome">
+                    <h2 id="nome">Monkey D. Luffy</h2>
+                </div>
+            </div>
+
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="luffy" data-name="Monkey D.Luffy">
+                    <span class="tag">1P</span>
+                    <img src="./assets/img/luffy.jpg" alt="Personagem Luffy">
+                </li>
+
+                <li class="personagem" id="zoro" data-name="Roronoa Zoro">
+                    <span class="tag">1P</span>
+                    <img src="./assets/img/zoro.jpg" alt="Personagem Zoro">
+                </li>
+
+                <li class="personagem" id="nami" data-name="Nami">
+                    <span class="tag">1P</span>
+                    <img src="./assets/img/nami.jpg" alt="Personagem Nami">
+                </li>
+
+                <li class="personagem" id="sanji" data-name="Vinsmoke Sanji">
+                    <span class="tag">1P</span>
+                    <img src="./assets/img/sanji.jpg" alt="Personagem Sanji-Vinsmoke">
+                </li>
+
+                <li class="personagem" id="usopp" data-name="Usopp">
+                    <span class="tag">1P</span>
+                    <img src="./assets/img/usopp.jpg" alt="Personagem Usopp">
+                </li>
+
+                <li class="personagem jogador-2-selecionado" id="robin" data-name="Nico Robin">
+                    <span class="tag">2P</span>
+                    <img src="./assets/img/robin.jpg" alt="Personagem Nico Robin">
+                </li>
+
+                <li class="personagem" id="franky" data-name="Franky">
+                    <span class="tag">1P</span>
+                    <img src="./assets/img/franky.jpg" alt="Personagem Franky">
+                </li>
+
+                <li class="personagem" id="chopper" data-name="Chopper">
+                    <span class="tag">1P</span>
+                    <img src="./assets/img/chopper.jpg" alt="Personagem Chopper">
+                </li>
+
+                <li class="personagem" id="brook" data-name="Brook">
+                    <span class="tag">1P</span>
+                    <img src="./assets/img/brook.jpg" alt="Personagem Brook">
+                </li>
+                
+            </ul>
+
+            <div class="personagem-grande personagem-jogador-2">
+                <img src="./assets/img/robin.png" alt="Personagem selecionado jogador 2" id="personagem-jogador-2">
+                <div class="nome">
+                    <h2>Nico Robin</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
