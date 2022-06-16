@@ -13,7 +13,7 @@ Ideia retirada do evento mapaDevWeek do canal <a href="https://www.youtube.com/c
  
 ## Veja como funciona
 
-<!-- colocar video aqui -->
+![xisBHy_e463a33a8227f973e8b4b32245c90f06_00-00-00_00-00-12_2](https://user-images.githubusercontent.com/77053593/174194357-85bb11c9-e619-487d-8fd9-3b950c0e3334.gif)
 
 ### Ficou com alguma dúvida ?
 
